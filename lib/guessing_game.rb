@@ -41,8 +41,9 @@ class Guess
     @guess = gets.chomp.to_i
 
       if @guess_list.include?(@guess)
-        puts "| ~ | ~ " * 30
-         puts "Clearly the stress is just too much.. you already tried #{@guess}. Lets try this again."
+         print "| ~ | ~ " * 10, "|\n"
+         puts " Clearly the stress is just too much.. you already tried #{@guess}. Lets try this again."
+         print "| ~ | ~ " * 10, "|\n"
          user_guess
       else
         @guess_list << @guess
