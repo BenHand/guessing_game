@@ -53,12 +53,4 @@ class Guess
 
   end
 
-  # def guess_response
-  #   @responses = [
-  #     "What # am i thinking of? (1-100)",
-  #     "Lets try that again.. >> ",
-  #     "Your not very good at this are you? >> ",
-  #     "You might as well control+c now. >> ",
-  #     "...I'll give you one last attempt to redeem yourself. >> "]
-  # end
 end
